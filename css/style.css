@@ -1,0 +1,165 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.1s;
+    background-color: rgb(0, 152, 194);
+    width: 50%;
+    height: 50px;
+    margin-left: 350px;
+    border-radius: 25px;
+    padding: 2px 2px 5px;
+    
+
+}
+
+nav ul :hover {
+    color: yellow;
+    transform: scale(0.9);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+    margin-top: 25px;
+    padding: 15px;
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px teal solid;
+    padding: 30px;
+}
+.image img {
+    width: 1000px;
+    height: 400px;
+}
+.insert input{
+    width: 700px;
+    height: 35px;
+    margin-top: 35px;
+    margin-left: 100px;
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bolder;
+    border: 3px rgb(0, 152, 194) solid;
+}
+.btn{
+    width: 150px;
+    height:45px;
+    padding: 5px;
+    text-align: center;
+    margin: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px aliceblue solid;
+    background-color: rgb(0, 152, 194);
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: brown;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.out{
+   width: 1000px;
+   height: auto;
+   margin-top: 10px;
+   color: black;
+   
+}
+.out h2{
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*PAGE 2*/
+#page2{
+    background-color: aliceblue
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    
+}
+.btns button{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    background-color: burlywood;
+    color: black;
+}
+#text {
+    color: black;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+
+#blueviolet{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 16px;
+}
+#coral{
+    background-color: coral;
+    color: aliceblue;
+
+
+}
+#blue{
+    background-color: blue;
+    color: aliceblue;
+
+}
+/*page 3*/
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.slide h2{
+   
+    color: red;
+    font-size: 25px;
+    border-bottom: 2px solid steelblue;
+    padding: 8px;
+    margin: 30px;
+    cursor: pointer;
+}
+.slide p{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
